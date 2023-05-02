@@ -6,14 +6,6 @@ img {
 	margin-top: 1rem;
 }
 
-.beasts-container {
-	display: flex;
-	justify-content: center;
-	flex-wrap: wrap;
-	gap: 0.5rem;
-	padding: 1rem;
-}
-
 .beast {
 	padding: 0.5rem;
 	border: 2px solid black;

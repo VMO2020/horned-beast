@@ -18,7 +18,7 @@ export const HornedBeast = ({
 			<p>
 				Keyword: <span>{`${keyword}`} </span>
 			</p>
-			<img src={image_url} alt={title} />
+			<img src={image_url} alt={keyword} title={title} />
 			<p className="description">
 				<span>{description}.</span>
 			</p>

@@ -1,3 +1,9 @@
+# Class 031 Lab 1
+
+[REPO](https://github.com/VMO2020/horned-beast)
+
+![Screenshot](./public/Screenshot.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

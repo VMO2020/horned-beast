@@ -1,8 +1,20 @@
-# Class 031 Lab 1
+# Class 301 Lab 1
 
 [REPO](https://github.com/VMO2020/horned-beast)
 
 ![Screenshot](./public/Screenshot.png)
+
+# Class 301 Lab 2
+
+Number and name of feature: ________________________________
+
+Estimate of time needed to complete: _____
+
+Start time: _____
+
+Finish time: _____
+
+Actual time needed to complete: _____
 
 # Getting Started with Create React App
 

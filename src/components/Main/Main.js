@@ -1,6 +1,5 @@
 import React from 'react';
 import './Main.css';
-import { data } from '../../data/data';
 import { HornedBeast } from '../HornedBeast/HornedBeast';
 
 // JSON Data

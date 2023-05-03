@@ -11,7 +11,6 @@ export const Main = () => {
 				{data.map((beast) => (
 					<div key={beast.id} className="beast">
 						<HornedBeast
-							id={beast.id}
 							title={beast.title}
 							image_url={beast.image_url}
 							horns={beast.horns}

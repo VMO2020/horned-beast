@@ -6,15 +6,18 @@
 
 # Class 301 Lab 2
 
-Number and name of feature: Add beasts.json
+Number and name of feature:
+. Add beasts.json
+. Render using map function
+. Add filter by number of horns
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 2 h
 
-Start time: _____
+Start time: 1:00 pm
 
-Finish time: _____
+Finish time: 2:35 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2.35 h
 
 # Getting Started with Create React App
 

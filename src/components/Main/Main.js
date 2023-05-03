@@ -20,10 +20,6 @@ export const Main = () => {
 
 	// FILTER
 	const handleFilter = () => {
-		// const filterData = data.filter((value) =>
-		// 	value.keyword.toLowerCase().includes(search.toLowerCase())
-		// );
-		// console.log(filterData);
 		const filterData = data.filter((value) => value.horns == search);
 		// console.log(filterData);
 		setDataFiltered(filterData);

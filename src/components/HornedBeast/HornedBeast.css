@@ -7,9 +7,16 @@ img {
 }
 
 .beast {
-	padding: 0.5rem;
-	border: 2px solid black;
+	padding: 1rem;
+	border: 2px solid grey;
+	/* border-radius: 0.5rem; */
 	box-shadow: 5px 5px 6px grey;
+	transition: all 0.5s ease;
+}
+
+.beast:hover {
+	border: 2px solid blue;
+	scale: 1.05;
 }
 
 .beast h3 {
@@ -17,6 +24,8 @@ img {
 	font-weight: 700;
 	text-align: center;
 	margin-bottom: 1rem;
+	padding: 0.5rem 0;
+	background-color: aliceblue;
 }
 
 .beast p {

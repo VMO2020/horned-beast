@@ -34,12 +34,7 @@ img {
 	display: flex;
 	justify-content: center;
 	flex-wrap: wrap;
-	gap: 0.5rem;
+	gap: 2rem;
 	padding: 1rem;
-}
-
-.beast {
-	padding: 0.5rem;
-	border: 2px solid black;
-	box-shadow: 5px 5px 6px grey;
+	margin-bottom: 2rem;
 }

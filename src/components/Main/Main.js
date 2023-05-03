@@ -20,7 +20,9 @@ export const Main = () => {
 
 	// FILTER
 	const handleFilter = () => {
-		const filterData = data.filter((value) => value.horns === search);
+		const filterData = data.filter(
+			(value) => value.horns.toString() === search.toString()
+		);
 		// console.log(filterData);
 		setDataFiltered(filterData);
 		setBtnReset(true);

@@ -3,14 +3,14 @@ import './Main.css';
 import { HornedBeast } from '../HornedBeast/HornedBeast';
 
 // JSON Data
-const beasts = require('../../data/beasts.json');
+import data from '../../data/beasts.json';
 
 export const Main = () => {
 	// console.log(beasts);
 	return (
 		<div className="main-container">
 			<div className="beasts-container">
-				{beasts.map((beast) => (
+				{data.map((beast) => (
 					<div key={beast._id} className="beast">
 						<HornedBeast
 							title={beast.title}

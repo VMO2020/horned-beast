@@ -9,14 +9,16 @@ export const Main = () => {
 		<div className="main-container">
 			<div className="beasts-container">
 				{data.map((beast) => (
-					<HornedBeast
-						id={beast.id}
-						title={beast.title}
-						image_url={beast.image_url}
-						horns={beast.horns}
-						keyword={beast.keyword}
-						description={beast.description}
-					/>
+					<div key={beast.id} className="beast">
+						<HornedBeast
+							id={beast.id}
+							title={beast.title}
+							image_url={beast.image_url}
+							horns={beast.horns}
+							keyword={beast.keyword}
+							description={beast.description}
+						/>
+					</div>
 				))}
 			</div>
 		</div>

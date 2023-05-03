@@ -3,8 +3,8 @@ import './Header.css';
 
 export const Header = () => {
 	return (
-		<div className="header-container">
+		<header className="header-container">
 			<h1>Horned Beasts</h1>
-		</div>
+		</header>
 	);
 };

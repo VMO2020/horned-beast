@@ -10,7 +10,7 @@ export const HornedBeast = ({
 	description,
 }) => {
 	return (
-		<div key={id} className="beast">
+		<>
 			<h3>{title}</h3>
 			<p>
 				Horns: <span>{`${horns}`} </span>
@@ -22,6 +22,6 @@ export const HornedBeast = ({
 			<p className="description">
 				<span>{description}.</span>
 			</p>
-		</div>
+		</>
 	);
 };

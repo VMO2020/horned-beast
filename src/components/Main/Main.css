@@ -4,6 +4,7 @@
 	min-height: 90vh;
 	color: black;
 	background-color: white;
+	padding-top: 3rem;
 }
 
 img {
@@ -20,4 +21,10 @@ img {
 	flex-wrap: wrap;
 	gap: 0.5rem;
 	padding: 1rem;
+}
+
+.beast {
+	padding: 0.5rem;
+	border: 2px solid black;
+	box-shadow: 5px 5px 6px grey;
 }

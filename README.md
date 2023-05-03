@@ -6,7 +6,7 @@
 
 # Class 301 Lab 2
 
-Number and name of feature: ________________________________
+Number and name of feature: Add beasts.json
 
 Estimate of time needed to complete: _____
 

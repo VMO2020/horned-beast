@@ -7,16 +7,13 @@ img {
 }
 
 .beast {
+	position: static;
 	padding: 1rem;
 	border: 2px solid grey;
 	/* border-radius: 0.5rem; */
 	box-shadow: 5px 5px 6px grey;
 	transition: all 0.5s ease;
-}
-
-.beast:hover {
-	border: 2px solid blue;
-	scale: 1.05;
+	cursor: pointer;
 }
 
 .beast h3 {
@@ -40,4 +37,8 @@ img {
 	font-size: 1.3rem;
 	max-width: 300px;
 	margin-top: 1rem;
+}
+
+.hidden {
+	display: none;
 }

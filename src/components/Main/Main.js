@@ -7,10 +7,10 @@ import data from '../../data/beasts.json';
 
 export const Main = () => {
 	// console.log(data);
-
 	const [search, setSearch] = useState('');
 	const [dataFiltered, setDataFiltered] = useState(data);
 	const [btnReset, setBtnReset] = useState(false);
+	const [displayBeasts, setDisplayBeast] = useState(true);
 
 	// SEARCH FUNCTION
 	const searcher = (e) => {
@@ -35,8 +35,13 @@ export const Main = () => {
 		setDataFiltered(data);
 	};
 
+	// DisplayBeasts
+	const handleDisplay = () => {
+		setDisplayBeast(!displayBeasts);
+	};
+
 	return (
-		<div className="main-container">
+		<div className="main-container" id="top">
 			<div className="filter-container">
 				<input
 					value={search}
@@ -64,6 +69,7 @@ export const Main = () => {
 							horns={beast.horns}
 							keyword={beast.keyword}
 							description={beast.description}
+							handleDisplay={handleDisplay}
 						/>
 					</div>
 				))}

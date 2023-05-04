@@ -41,7 +41,7 @@ export const Main = () => {
 	};
 
 	return (
-		<div className="main-container" id="top">
+		<main className="main-container" id="top">
 			<div className="filter-container">
 				<input
 					value={search}
@@ -74,6 +74,6 @@ export const Main = () => {
 					</div>
 				))}
 			</div>
-		</div>
+		</main>
 	);
 };

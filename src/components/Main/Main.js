@@ -10,7 +10,6 @@ export const Main = () => {
 	const [search, setSearch] = useState('');
 	const [dataFiltered, setDataFiltered] = useState(data);
 	const [btnReset, setBtnReset] = useState(false);
-	const [displayBeasts, setDisplayBeast] = useState(true);
 
 	// SEARCH FUNCTION
 	const searcher = (e) => {
@@ -33,11 +32,6 @@ export const Main = () => {
 		setSearch('');
 		setBtnReset(false);
 		setDataFiltered(data);
-	};
-
-	// DisplayBeasts
-	const handleDisplay = () => {
-		setDisplayBeast(!displayBeasts);
 	};
 
 	return (
@@ -69,7 +63,6 @@ export const Main = () => {
 							horns={beast.horns}
 							keyword={beast.keyword}
 							description={beast.description}
-							handleDisplay={handleDisplay}
 						/>
 					</div>
 				))}

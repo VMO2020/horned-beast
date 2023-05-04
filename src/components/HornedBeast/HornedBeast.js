@@ -15,16 +15,11 @@ export const HornedBeast = ({
 	// Display MODAl
 	const handleModal = () => {
 		setModal(!modal);
-		backToTop();
 	};
 
 	// Clicks
 	const handleClick = () => {
 		setVotes(votes + 1);
-	};
-
-	const backToTop = () => {
-		window.location.href = '#top';
 	};
 
 	return (

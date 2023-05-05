@@ -9,7 +9,7 @@ export const HornedBeast = ({
 	keyword,
 	description,
 }) => {
-	const [votes, setVotes] = useState(1);
+	const [votes, setVotes] = useState(0);
 	const [modal, setModal] = useState(false);
 
 	// Display MODAl
@@ -20,6 +20,10 @@ export const HornedBeast = ({
 	// Clicks
 	const handleClick = () => {
 		setVotes(votes + 1);
+	};
+
+	const handleClick2 = () => {
+		setVotes(votes - 1);
 	};
 
 	return (
@@ -35,7 +39,21 @@ export const HornedBeast = ({
 			<p className="description">
 				<span>{description}.</span>
 			</p>
-			<p onClick={handleClick}>❤️ = {votes}</p>
+			<div className="likes-container">
+				<p onClick={handleClick}>👍</p>
+				<p onClick={handleClick2}>👎</p>
+				{votes < 0 ? (
+					<p style={{ color: 'red' }}>
+						<span>love = </span>
+						{votes}
+					</p>
+				) : (
+					<p className="votes">
+						<span>love = </span>
+						{votes}
+					</p>
+				)}
+			</div>
 			{modal && (
 				<Modal
 					handleModal={handleModal}

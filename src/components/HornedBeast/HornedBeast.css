@@ -4,6 +4,7 @@ img {
 	height: 300px;
 	object-fit: contain;
 	margin-top: 1rem;
+	cursor: pointer;
 }
 
 .beast {
@@ -27,6 +28,7 @@ img {
 
 .beast p {
 	font-size: 1rem;
+	cursor: auto;
 }
 
 .beast p span {
@@ -37,4 +39,21 @@ img {
 	font-size: 1.3rem;
 	max-width: 300px;
 	margin-top: 1rem;
+}
+
+.likes-container {
+	display: flex;
+	justify-content: space-around;
+	margin-top: 1rem;
+	background-color: aliceblue;
+	cursor: auto;
+}
+
+.likes-container p {
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.likes-container p.votes {
+	cursor: auto;
 }

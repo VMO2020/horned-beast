@@ -7,6 +7,9 @@ export const Modal = ({ handleModal, image_url, title, description }) => {
 			<img src={image_url} alt={title} onClick={handleModal} />
 			<h3>{title}</h3>
 			<h3 className="description">{description}</h3>
+			<p className="modal-close" onClick={handleModal}>
+				X
+			</p>
 		</div>
 	);
 };
